@@ -10,14 +10,53 @@
 
 
     <!-- Css Reset Styles -->
-    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="/resources/css/reset.css" type="text/css">
     <!-- Index Css styles -->
-    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="/resources/css/style.css" type="text/css">
+
     <title>Excursion Project1</title>
+
+    <!-- CSS LAND -->
+    <style>
+        /* CSS to hide the video controls */
+        .hero_video {
+            /* The following two lines will hide the default video controls */
+            /* Remove them if you want to show the controls */
+            pointer-events: none;
+            user-select: none;
+        }
+    </style>
+
 </head>
 
-<!-- HEADER START -->
-<header>
-    <h1>Discover hidden places in the world around you</h1>
-</header>
-<!-- HEADER END -->
+/* HERO 1 SECTION START*/
+<body>
+    <!-- HEADER START -->
+    <div id="root">
+        <h1>Discover hidden places in the world around you</h1>
+    </div>
+    <!-- HEADER END -->
+
+    <!-- CONTENT START -->
+    <div>
+        <h4>Download Excursion (Coming soon!)</h4>
+    </div>
+
+    <!-- IMAGE WITH BACKGROUND VIDEO START -->
+    ,<div>
+    <video autoplay loop class="hero_video">
+        <source src="/resources/assets/excursion.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </div>
+    <!-- IMAGE WITH BACKGROUND VIDEO END -->
+    /* HERO 1 SECTION END*/
+
+    /* HERO 2 SECTION START*/
+
+    /* HERO 2 SECTION END*/
+    <!-- CONTENT END -->
+
+</body>
+
+</html>

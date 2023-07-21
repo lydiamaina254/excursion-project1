@@ -1,3 +1,13 @@
+/* HERO 1 SECTION START*/
+/* GENERAL STYLES START */
+#root {
+    background-color:black !important;
+    text-align: center; 
+}
+body {
+    background-color:black !important;
+    text-align: center;
+}
 h1 {
     font-family: verdana;
     font-weight: normal;
@@ -5,3 +15,21 @@ h1 {
     color: white;
     text-align: center; 
 }
+h4 {
+    color: aquamarine;
+    font-size: 16px;
+    padding: 50px 0;
+}
+/* GENERAL STYLES END */
+
+/* CLASS STYLES START */
+.hero_video {
+    height: 500px;
+}
+/* CLASS STYLES END */
+/* HERO 1 SECTION  ENND*/
+
+/* /* HERO 2 SECTION START*/
+
+/* /* HERO 2 SECTION END*/
+
