@@ -22,14 +22,29 @@ h4 {
 }
 /* GENERAL STYLES END */
 
-/* CLASS STYLES START */
-.hero_video {
-    height: 500px;
-}
-/* CLASS STYLES END */
-/* HERO 1 SECTION  ENND*/
+/* HERO 1 SECTION  END*/
 
 /* /* HERO 2 SECTION START*/
+h2 {
+    font-family: verdana;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+    padding: 50px 0;
+}
+h6 {
+    font-family: verdana;
+    font-size: 21px;
+    color: gray;
+}
+/* IMAGE CONTAINER START */
+.camp {
+    padding: 30px 0;
+}
+.phone {
+    padding-bottom: 50px; 
+}
+/* IMAGE CONTAINER END */
 
 /* /* HERO 2 SECTION END*/
 
